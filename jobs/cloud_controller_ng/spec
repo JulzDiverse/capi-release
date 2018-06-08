@@ -855,6 +855,12 @@ properties:
     description: "Maximum pid limit for containerized work running user-provided code"
     default: 1024
 
+  cc.opi.enabled:
+    description: "If enabled OPI will take care of application scheduling instead of Diego."
+    default: false
+  cc.opi.url:
+    description: "The URL endpoint of the OPI service."
+
   cc.loggregator.internal_url:
     description: "Internal url used to communicate with traffic_controller"
     default: "http://loggregator-trafficcontroller.service.cf.internal:8081"
