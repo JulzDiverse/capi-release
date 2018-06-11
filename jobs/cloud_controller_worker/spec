@@ -76,6 +76,13 @@ properties:
     description: "The location at which to mount the nfs share"
     default: "/var/vcap/nfs"
 
+  cc.opi.enabled:
+    description: "Enable the amazing eirini component"
+    default: false
+  cc.opi.url:
+    description: "Eirini Endpoint"
+    default: ""
+
   cc.external_port:
     description: "External Cloud Controller port"
     default: 9022
