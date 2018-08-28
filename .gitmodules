@@ -139,3 +139,4 @@
 [submodule "src/cloud_controller_ng"]
 	path = src/cloud_controller_ng
 	url = https://github.com/mnitchev/cloud_controller_ng.git
+	branch = eirini
