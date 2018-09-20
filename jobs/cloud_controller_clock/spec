@@ -64,6 +64,9 @@ properties:
   cc.opi.opi_staging:
     description: "Enable the amazing eirini staging"
     default: false
+  cc.opi.cc_uploader_url:
+    description: "URL of cc uploader."
+    default: http://cc-uploader.service.cf.internal:9091
   cc.opi.url:
     description: "Eirini Endpoint"
     default: ""
