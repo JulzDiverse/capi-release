@@ -22,4 +22,4 @@ properties:
     description: "Include cloud_controller DB in backup and restore operations"
   bpm.enabled:
     description: "Enable Bosh Process Manager"
-    default: true
+    default: false 

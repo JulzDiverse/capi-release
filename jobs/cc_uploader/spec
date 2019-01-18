@@ -31,7 +31,7 @@ provides:
 properties:
   bpm.enabled:
     description: "Enable Bosh Process Manager"
-    default: true
+    default: false 
 
   internal_hostname:
     description: "Hostname by which clients will communicate with the cc uploader"

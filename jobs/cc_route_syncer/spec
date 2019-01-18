@@ -39,7 +39,7 @@ consumes:
 properties:
   bpm.enabled:
     description: "Enable Bosh Process Manager"
-    default: true
+    default: false 
 
   ccdb.databases:
     description: "Contains the name of the database on the database server"
